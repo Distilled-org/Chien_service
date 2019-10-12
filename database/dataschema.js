@@ -15,5 +15,3 @@ var images = mongoose.model('images', imageSchema);
 
 
 module.exports.images = images;
-
-
