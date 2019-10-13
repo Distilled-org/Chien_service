@@ -8,7 +8,7 @@ db.on('error', console.error.bind(console, 'connection error:'));
 var imageSchema = new mongoose.Schema({
   id: String,
   name: String,
-  url: String
+  url: Array,
 });
 
 var images = mongoose.model('images', imageSchema);
